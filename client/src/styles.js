@@ -9,13 +9,15 @@ export default makeStyles(() => ({
     justifyContent: 'center',
     alignItems: 'center',
     background: '#fff',
+    //border: 'solid 2px #5ACDEA',
   },
   heading: {
-    color: '#5ACDEA',
+    color: '#0b66c2',
+    
 
   },
   image: {
-    marginLeft: '15px',
+    marginLeft: '25px',
   },
   
 

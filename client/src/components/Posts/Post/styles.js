@@ -9,9 +9,11 @@ export default makeStyles({
   },
   border: {
     border: 'solid',
+    
   },
   fullHeightCard: {
     height: '100%',
+  
   },
   card: {
     display: 'flex',
@@ -20,6 +22,7 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
+    //border: 'solid 2px #5ACDEA',
   },
   overlay: {
     position: 'absolute',
@@ -35,18 +38,35 @@ export default makeStyles({
   },
   grid: {
     display: 'flex',
+
+    
   },
   details: {
     display: 'flex',
     justifyContent: 'space-between',
-    margin: '20px',
+    margin: '10px',
+
   },
   title: {
-    padding: '0 16px',
+    margin: '20px 0 10px',
+    padding: '5px 10px',
+    color: '#000',
+    //border: 'solid 2px #5ACDEA',
+    display: 'flex'
+
   },
   cardActions: {
     padding: '0 16px 8px 16px',
     display: 'flex',
     justifyContent: 'space-between',
+    
   },
+  message: {
+    color: '#333',
+    padding: '0px 10px',
+
+    //border: 'solid 2px #5ACDEA',
+
+  },
+  
 });
