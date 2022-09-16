@@ -8,19 +8,19 @@ export default makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(2),
-    //border: 'solid 2px #5ACDEA',
-    borderRadius: '15px',
-
+   
   },
   form: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
+    borderRadius: '10px',
     
   },
   fileInput: {
     width: '100%',
-    margin: '0px 0',
+    margin: '20px 5px',
+    color: '#0b66c2'
 
   },
   buttonSubmit: {
